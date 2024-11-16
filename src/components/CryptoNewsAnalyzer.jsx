@@ -1,6 +1,13 @@
-import React, { useState, useEffect } from 'react';
-import { Card, CardHeader, CardTitle, CardContent } from '../components/ui/card';
-import { AlertCircle, TrendingUp, TrendingDown, CircleDot } from 'lucide-react';
+<<<<<<< Tabnine <<<<<<<
+import React, { useState, useEffect } from 'react';//-
+import { Card, CardHeader, CardTitle, CardContent } from '../components/ui/card';//-
+import { AlertCircle, TrendingUp, TrendingDown, CircleDot } from 'lucide-react';//-
+import React, { useState } from 'react';//+
+import { Card, CardHeader, CardTitle, CardContent } from './ui/card';//+
+import { AlertCircle, TrendingUp, CircleDot } from 'lucide-react';//+
+//+
+// ... rest of the component code remains the same//+
+>>>>>>> Tabnine >>>>>>>// {"source":"chat"}
 
 const CryptoNewsAnalyzer = () => {
   const [news, setNews] = useState([

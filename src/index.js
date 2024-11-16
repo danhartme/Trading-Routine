@@ -1,10 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import CryptoNewsAnalyzer from './components/CryptoNewsAnalyzer';
 
-ReactDOM.render(
+const root = createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
     <CryptoNewsAnalyzer />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
